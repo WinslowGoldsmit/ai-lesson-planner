@@ -10,11 +10,11 @@ Your task is to analyze the given chapter and break it into logical teaching uni
 
 Input:
 
-Subject: [INSERT SUBJECT]
+Subject: Physic
 
-Class: [INSERT CLASS]
+Class: 11
 
-Chapter: [INSERT CHAPTER]
+Chapter: Motion in a Plane
 
 Instructions:
 
