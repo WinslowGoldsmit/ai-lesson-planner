@@ -10,11 +10,11 @@ Your task is to analyze the given chapter and break it into logical teaching uni
 
 Input:
 
-Subject: Physic
+Subject: [to be added ]
 
-Class: 11
+Class: [ to be added ]
 
-Chapter: Motion in a Plane
+Chapter: [ to be added ]
 
 Instructions:
 

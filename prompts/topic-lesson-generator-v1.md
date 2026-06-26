@@ -8,13 +8,13 @@ You are an experienced school teacher, curriculum designer, and instructional pl
 
 Input:
 
-Subject: Physics
+Subject: [enter]
 
-Class: 11
+Class: [enter]
 
-Topic ID: T1
+Topic ID: [enter]
 
-Topic Name: Introduction to Motion in a Plane and Vectors
+Topic Name: [enter]
 
 Instructions:
 

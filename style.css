@@ -1,0 +1,171 @@
+/* =====================================
+   AI Lesson Planner
+   Main Stylesheet
+===================================== */
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Main container */
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Buttons */
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #1d4ed8;
+}
+
+.secondary {
+    background: #374151;
+}
+
+.secondary:hover {
+    background: #1f2937;
+}
+
+/* Sections */
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #1f2937;
+    border-left: 5px solid #2563eb;
+    padding-left: 12px;
+}
+
+/* Workflow */
+
+.workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #2563eb;
+}
+
+/* Cards */
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap: 20px;
+}
+
+/* Lists */
+
+ul {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px;
+    color: #777;
+    border-top: 1px solid #ddd;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 220px;
+        text-align: center;
+    }
+
+}
